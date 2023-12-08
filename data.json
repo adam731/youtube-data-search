@@ -1,0 +1,502 @@
+[
+    {
+     "Rank": 1,
+     "Name": "T-Series",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 254,
+     "Primary language": "Hindi",
+     "Category": "Music",
+     "Country": "India"
+    },
+    {
+     "Rank": 2,
+     "Name": "MrBeast",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 216,
+     "Primary language": "English",
+     "Category": "Entertainment",
+     "Country": "United States"
+    },
+    {
+     "Rank": 3,
+     "Name": "Cocomelon",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 168,
+     "Primary language": "English",
+     "Category": "Education",
+     "Country": "United States"
+    },
+    {
+     "Rank": 4,
+     "Name": "Sony Entertainment Television India",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 165,
+     "Primary language": "Hindi",
+     "Category": "Entertainment",
+     "Country": "India"
+    },
+    {
+     "Rank": 5,
+     "Name": "Kids Diana Show",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 116,
+     "Primary language": "English",
+     "Category": "Entertainment",
+     "Country": "Germany\/ Canada"
+    },
+    {
+     "Rank": 6,
+     "Name": "PewDiePie",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 111,
+     "Primary language": "English",
+     "Category": "Entertainment",
+     "Country": "Sweden\/ Japan"
+    },
+    {
+     "Rank": 7,
+     "Name": "Like Nastya",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 110,
+     "Primary language": "English",
+     "Category": "Entertainment",
+     "Country": "Russia\/ United States"
+    },
+    {
+     "Rank": 8,
+     "Name": "Vlad and Niki",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 106,
+     "Primary language": "English",
+     "Category": "Entertainment",
+     "Country": "Russia\/ United States"
+    },
+    {
+     "Rank": 9,
+     "Name": "Zee Music Company",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 102,
+     "Primary language": "Hindi",
+     "Category": "Music",
+     "Country": "India"
+    },
+    {
+     "Rank": 10,
+     "Name": "WWE",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 98.3,
+     "Primary language": "English",
+     "Category": "Sports",
+     "Country": "United States"
+    },
+    {
+     "Rank": 11,
+     "Name": "Goldmines",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 92.4,
+     "Primary language": "Hindi",
+     "Category": "Film",
+     "Country": "India"
+    },
+    {
+     "Rank": 12,
+     "Name": "Blackpink",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 92.3,
+     "Primary language": "Korean",
+     "Category": "Music",
+     "Country": "South Korea"
+    },
+    {
+     "Rank": 13,
+     "Name": "Sony SAB",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 87.5,
+     "Primary language": "Hindi",
+     "Category": "Entertainment",
+     "Country": "India"
+    },
+    {
+     "Rank": 14,
+     "Name": "5-Minute Crafts",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 80.5,
+     "Primary language": "English",
+     "Category": "How-to",
+     "Country": "Cyprus[a]"
+    },
+    {
+     "Rank": 15,
+     "Name": "BangtanTV",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 76.9,
+     "Primary language": "Korean",
+     "Category": "Music",
+     "Country": "South Korea"
+    },
+    {
+     "Rank": 16,
+     "Name": "Zee TV",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 74.9,
+     "Primary language": "Hindi",
+     "Category": "Entertainment",
+     "Country": "India"
+    },
+    {
+     "Rank": 17,
+     "Name": "Hybe Labels",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 73.5,
+     "Primary language": "Korean",
+     "Category": "Music",
+     "Country": "South Korea"
+    },
+    {
+     "Rank": 18,
+     "Name": "Justin Bieber",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 72.2,
+     "Primary language": "English",
+     "Category": "Music",
+     "Country": "Canada"
+    },
+    {
+     "Rank": 19,
+     "Name": "Pinkfong",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 71.3,
+     "Primary language": "English",
+     "Category": "Education",
+     "Country": "South Korea"
+    },
+    {
+     "Rank": 20,
+     "Name": "ChuChu TV Nursery Rhymes & Kids Songs",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 69,
+     "Primary language": "Hindi",
+     "Category": "Education",
+     "Country": "India"
+    },
+    {
+     "Rank": 21,
+     "Name": "Colors TV",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 68.9,
+     "Primary language": "Hindi",
+     "Category": "Entertainment",
+     "Country": "India"
+    },
+    {
+     "Rank": 22,
+     "Name": "Shemaroo Entertainment",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 67,
+     "Primary language": "Hindi",
+     "Category": "Music",
+     "Country": "India"
+    },
+    {
+     "Rank": 23,
+     "Name": "Canal KondZilla",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 66.8,
+     "Primary language": "Portuguese",
+     "Category": "Music",
+     "Country": "Brazil"
+    },
+    {
+     "Rank": 24,
+     "Name": "T-Series Bhakti Sagar",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 64.7,
+     "Primary language": "Hindi",
+     "Category": "Music",
+     "Country": "India"
+    },
+    {
+     "Rank": 25,
+     "Name": "Tips Official",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 62.5,
+     "Primary language": "Hindi",
+     "Category": "Entertainment",
+     "Country": "India"
+    },
+    {
+     "Rank": 26,
+     "Name": "El Reino Infantil",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 61.3,
+     "Primary language": "Spanish",
+     "Category": "Music",
+     "Country": "Argentina"
+    },
+    {
+     "Rank": 27,
+     "Name": "Aaj Tak",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 60.4,
+     "Primary language": "Hindi",
+     "Category": "News",
+     "Country": "India"
+    },
+    {
+     "Rank": 28,
+     "Name": "Movieclips",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 60.2,
+     "Primary language": "English",
+     "Category": "Film",
+     "Country": "United States"
+    },
+    {
+     "Rank": 29,
+     "Name": "Dude Perfect",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 60,
+     "Primary language": "English",
+     "Category": "Sports",
+     "Country": "United States"
+    },
+    {
+     "Rank": 30,
+     "Name": "Wave Music",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 59.8,
+     "Primary language": "Bhojpuri",
+     "Category": "Music",
+     "Country": "India"
+    },
+    {
+     "Rank": 31,
+     "Name": "Sony Music India",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 58.7,
+     "Primary language": "Hindi",
+     "Category": "Music",
+     "Country": "India"
+    },
+    {
+     "Rank": 32,
+     "Name": "Eminem",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 58.1,
+     "Primary language": "English",
+     "Category": "Music",
+     "Country": "United States"
+    },
+    {
+     "Rank": 33,
+     "Name": "Infobells",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 57.6,
+     "Primary language": "Hindi",
+     "Category": "Education",
+     "Country": "India"
+    },
+    {
+     "Rank": 34,
+     "Name": "Yash Raj Films",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 57.4,
+     "Primary language": "Hindi",
+     "Category": "Music",
+     "Country": "India"
+    },
+    {
+     "Rank": 35,
+     "Name": "Marshmello",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 56.7,
+     "Primary language": "English",
+     "Category": "Music",
+     "Country": "United States"
+    },
+    {
+     "Rank": 36,
+     "Name": "LooLoo Kids",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 55.6,
+     "Primary language": "English",
+     "Category": "Music",
+     "Country": "Romania"
+    },
+    {
+     "Rank": 37,
+     "Name": "Taylor Swift",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 55.5,
+     "Primary language": "English",
+     "Category": "Music",
+     "Country": "United States"
+    },
+    {
+     "Rank": 38,
+     "Name": "BillionSurpriseToys",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 54.4,
+     "Primary language": "English",
+     "Category": "Entertainment",
+     "Country": "United States"
+    },
+    {
+     "Rank": 39,
+     "Name": "Ed Sheeran",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 53.9,
+     "Primary language": "English",
+     "Category": "Music",
+     "Country": "United Kingdom"
+    },
+    {
+     "Rank": 40,
+     "Name": "Ariana Grande",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 53.1,
+     "Primary language": "English",
+     "Category": "Music",
+     "Country": "United States"
+    },
+    {
+     "Rank": 41,
+     "Name": "Shemaroo",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 50.3,
+     "Primary language": "Hindi",
+     "Category": "Entertainment",
+     "Country": "India"
+    },
+    {
+     "Rank": 42,
+     "Name": "ARY Digital HD",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 49.1,
+     "Primary language": "Urdu",
+     "Category": "Entertainment",
+     "Country": "Pakistan"
+    },
+    {
+     "Rank": 43,
+     "Name": "A4",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 49,
+     "Primary language": "Russian",
+     "Category": "Entertainment",
+     "Country": "Belarus"
+    },
+    {
+     "Rank": 44,
+     "Name": "JuegaGerman",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 48.9,
+     "Primary language": "Spanish",
+     "Category": "Entertainment",
+     "Country": "Chile"
+    },
+    {
+     "Rank": 45,
+     "Name": "Billie Eilish",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 48.8,
+     "Primary language": "English",
+     "Category": "Music",
+     "Country": "United States"
+    },
+    {
+     "Rank": 46,
+     "Name": "Get Movies",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 48.8,
+     "Primary language": "Russian",
+     "Category": "Entertainment",
+     "Country": "Russia"
+    },
+    {
+     "Rank": 47,
+     "Name": "Toys and Colors",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 48.5,
+     "Primary language": "English",
+     "Category": "Entertainment",
+     "Country": "United States"
+    },
+    {
+     "Rank": 48,
+     "Name": "SonyMusicIndiaVEVO",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 48.4,
+     "Primary language": "Hindi",
+     "Category": "Music",
+     "Country": "India"
+    },
+    {
+     "Rank": 49,
+     "Name": "HAR PAL GEO",
+     "Link": "Link",
+     "Brand channel": "Yes",
+     "Subscribers (millions)": 48.3,
+     "Primary language": "Urdu",
+     "Category": "Entertainment",
+     "Country": "Pakistan"
+    },
+    {
+     "Rank": 50,
+     "Name": "Bad Bunny",
+     "Link": "Link",
+     "Brand channel": "No",
+     "Subscribers (millions)": 47.2,
+     "Primary language": "Spanish",
+     "Category": "Music",
+     "Country": "Puerto Rico"
+    }
+   ]
