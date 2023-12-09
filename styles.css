@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     color: #333;
     text-align: center;
 }
@@ -24,7 +24,9 @@ table {
 }
 
 /* Table styles */
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #ddd;
 }
 
@@ -75,7 +77,8 @@ tr:hover {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ddd;
-    margin-right: 10px; /* Optional: Adds some space between the dropdown and the search button */
+    margin-right: 10px;
+    /* Optional: Adds some space between the dropdown and the search button */
 }
 
 /* Search Button styles */
@@ -88,7 +91,7 @@ tr:hover {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top : 15px;
+    margin-top: 15px;
 }
 
 /* Search Button hover styles */
@@ -103,6 +106,7 @@ tr:hover {
     justify-content: center;
     margin: 20px auto;
 }
+
 /* Styles for Both Table and Graphs Buttons */
 #tabs button {
     padding: 10px 20px;
@@ -124,11 +128,12 @@ tr:hover {
 /* Active Tab Style */
 #tabs button.active {
     background-color: #FF0000;
-    color: #f2f2f2; 
+    color: #f2f2f2;
 }
 
 /* graph sizing */
-#graphs-container-sub, #graph-container-country {
+#graphs-container-sub,
+#graph-container-country {
     width: 100%;
     height: 500px;
     margin: 0 auto;
@@ -169,7 +174,8 @@ tr:hover {
         align-items: stretch;
     }
 
-    #filter-dropdown, #search-input {
+    #filter-dropdown,
+    #search-input {
         width: 100%;
         margin-bottom: 10px;
     }
@@ -199,6 +205,3 @@ tr:hover {
         width: 80%;
     }
 }
-
-
-

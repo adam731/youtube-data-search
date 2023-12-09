@@ -62,6 +62,13 @@ document.getElementById('graphs-tab').addEventListener('click', function () {
     document.getElementById('search-input').style.display = 'none';
     document.getElementById('filter-dropdown').style.display = 'none';
     document.getElementById('search-button').style.display = 'none';
+
+    // Show the graph containers
+    var graphContainerCountry = document.getElementById('graph-container-country');
+    var graphsContainerSub = document.getElementById('graphs-container-sub');
+    graphContainerCountry.style.display = 'block'; // or 'flex'
+    graphsContainerSub.style.display = 'block'; // or 'flex'
+
     // Get the data for the graph
     const graphDataSubscribers = originalData.map((row, index) => ({
         x: index + 1, // or any other value
@@ -103,7 +110,7 @@ document.getElementById('graphs-tab').addEventListener('click', function () {
         animationEnabled: true,
         exportEnabled: true,
         title: {
-            text: "Number of Top 50 YouTube Channels by Country"
+            text: "Number of Channels by Country"
         },
         data: [{
             type: "pie",
@@ -123,4 +130,17 @@ document.getElementById('table-tab').addEventListener('click', function () {
     document.getElementById('filter-dropdown').style.display = '';
     document.getElementById('search-button').style.display = '';
     document.getElementById('data-table').style.display = '';
+    var graphContainerCountry = document.getElementById('graph-container-country');
+    var graphsContainerSub = document.getElementById('graphs-container-sub');
+    graphContainerCountry.innerHTML = '';
+    graphsContainerSub.innerHTML = '';
+    graphContainerCountry.style.height = '0';
+    graphsContainerSub.style.height = '0';
 });
+
+
+// Hide the graph containers when the page loads
+window.onload = function () {
+    document.getElementById('graph-container-country').style.display = 'none';
+    document.getElementById('graphs-container-sub').style.display = 'none';
+};
