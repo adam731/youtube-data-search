@@ -124,18 +124,25 @@ document.getElementById('graphs-tab').addEventListener('click', function () {
 
 });
 
+// chart objects
+let chartCountry;
+let chartSubs;
+
 document.getElementById('table-tab').addEventListener('click', function () {
     // Hide the graph and show the table
     document.getElementById('search-input').style.display = '';
     document.getElementById('filter-dropdown').style.display = '';
     document.getElementById('search-button').style.display = '';
     document.getElementById('data-table').style.display = '';
-    var graphContainerCountry = document.getElementById('graph-container-country');
-    var graphsContainerSub = document.getElementById('graphs-container-sub');
-    graphContainerCountry.innerHTML = '';
-    graphsContainerSub.innerHTML = '';
-    graphContainerCountry.style.height = '0';
-    graphsContainerSub.style.height = '0';
+    document.getElementById('graph-container-country').style.display = 'none';
+    document.getElementById('graphs-container-sub').style.display = 'none';
+    // Destroy the charts
+    if (chartCountry) {
+        chartCountry.destroy();
+    }
+    if (chartSubs) {
+        chartSubs.destroy();
+    }
 });
 
 
