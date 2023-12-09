@@ -54,3 +54,47 @@ document.getElementById('search-button').addEventListener('click', function () {
     filterOption.value = '';
     searchInput.value = '';
 });
+
+
+document.getElementById('graphs-tab').addEventListener('click', function () {
+    // Hide the table and show the graph
+    document.getElementById('data-table').style.display = 'none';
+    document.getElementById('graph-container').style.display = 'block';
+    document.getElementById('back-button').style.display = 'block'; // Show the back button
+    // Get the data for the graph
+    const graphData = originalData.map(row => ({
+        name: row.Name,
+        subscribers: row['Subscribers (millions)']
+    }));
+    // Create the chart
+    const chart = new CanvasJS.Chart("graph-container", {
+        animationEnabled: true,
+        exportEnabled: true,
+        title: {
+            text: "Top 50 YouTube Channels by Subscribers"
+        },
+        axisY: {
+            title: "Subscribers (millions)"
+        },
+        data: [{
+            type: "column",
+            dataPoints: graphData
+        }]
+    });
+    chart.render();
+});
+
+document.getElementById('graphs-tab').addEventListener('click', function () {
+    document.getElementById('search-input').style.display = 'none';
+    document.getElementById('filter-dropdown').style.display = 'none';
+    document.getElementById('search-button').style.display = 'none';
+    document.getElementById('back-button').style.display = 'block';
+});
+
+document.getElementById('back-button').addEventListener('click', function () {
+    document.getElementById('search-input').style.display = '';
+    document.getElementById('filter-dropdown').style.display = '';
+    document.getElementById('search-button').style.display = '';
+    document.getElementById('data-table').style.display = '';
+    document.getElementById('back-button').style.display = 'none';
+});
