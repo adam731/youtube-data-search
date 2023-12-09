@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>YouTube Channels Data</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head> 
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+
 <body>
     <h1>YouTube Channels Rankings</h1>
     <div id="tabs">
         <button id="table-tab">Table</button>
         <button id="graphs-tab">Graphs</button>
-        <button id="back-button" style="display: none;">Back</button>
     </div>
 
     <div id="table-container">
@@ -32,12 +33,11 @@
         <div id="data-table">
         </div>
     </div>
-    
-    <div id="graphs-container" style="display: none;">
-        <canvas id="randomChart"></canvas>
-        <button id="random-graph-button">Generate Random Graph</button>
-    </div>
+
+    <div id="graphs-container-sub"></div>
+    <div id="graph-container-country"></div>
 
     <script src="script.js"></script>
 </body>
+
 </html>

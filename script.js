@@ -59,15 +59,17 @@ document.getElementById('search-button').addEventListener('click', function () {
 document.getElementById('graphs-tab').addEventListener('click', function () {
     // Hide the table and show the graph
     document.getElementById('data-table').style.display = 'none';
-    document.getElementById('graph-container').style.display = 'block';
-    document.getElementById('back-button').style.display = 'block'; // Show the back button
+    document.getElementById('search-input').style.display = 'none';
+    document.getElementById('filter-dropdown').style.display = 'none';
+    document.getElementById('search-button').style.display = 'none';
     // Get the data for the graph
-    const graphData = originalData.map(row => ({
-        name: row.Name,
-        subscribers: row['Subscribers (millions)']
+    const graphDataSubscribers = originalData.map((row, index) => ({
+        x: index + 1, // or any other value
+        y: row['Subscribers (millions)'],
+        label: row.Name
     }));
     // Create the chart
-    const chart = new CanvasJS.Chart("graph-container", {
+    const chartSubs = new CanvasJS.Chart("graphs-container-sub", {
         animationEnabled: true,
         exportEnabled: true,
         title: {
@@ -78,23 +80,47 @@ document.getElementById('graphs-tab').addEventListener('click', function () {
         },
         data: [{
             type: "column",
-            dataPoints: graphData
+            dataPoints: graphDataSubscribers
         }]
     });
-    chart.render();
+    chartSubs.render();
+
+
+    // Count the number of channels for each country
+    const countryCounts = originalData.reduce((counts, row) => {
+        counts[row.Country] = (counts[row.Country] || 0) + 1;
+        return counts;
+    }, {});
+
+    // Convert the counts to the format expected by CanvasJS
+    const graphDataCountries = Object.entries(countryCounts).map(([country, count]) => ({
+        y: count,
+        label: country
+    }));
+
+    // Create the chart
+    const chartCountry = new CanvasJS.Chart("graph-container-country", {
+        animationEnabled: true,
+        exportEnabled: true,
+        title: {
+            text: "Number of Top 50 YouTube Channels by Country"
+        },
+        data: [{
+            type: "pie",
+            dataPoints: graphDataCountries
+        }]
+    });
+
+    chartCountry.render();
+
+
+
 });
 
-document.getElementById('graphs-tab').addEventListener('click', function () {
-    document.getElementById('search-input').style.display = 'none';
-    document.getElementById('filter-dropdown').style.display = 'none';
-    document.getElementById('search-button').style.display = 'none';
-    document.getElementById('back-button').style.display = 'block';
-});
-
-document.getElementById('back-button').addEventListener('click', function () {
+document.getElementById('table-tab').addEventListener('click', function () {
+    // Hide the graph and show the table
     document.getElementById('search-input').style.display = '';
     document.getElementById('filter-dropdown').style.display = '';
     document.getElementById('search-button').style.display = '';
     document.getElementById('data-table').style.display = '';
-    document.getElementById('back-button').style.display = 'none';
 });
