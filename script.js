@@ -69,6 +69,8 @@ document.getElementById('graphs-tab').addEventListener('click', function () {
     graphContainerCountry.style.display = 'block'; // or 'flex'
     graphsContainerSub.style.display = 'block'; // or 'flex'
 
+    // Create bar chart
+    
     // Get the data for the graph
     const graphDataSubscribers = originalData.map((row, index) => ({
         x: index + 1, // or any other value
@@ -92,6 +94,7 @@ document.getElementById('graphs-tab').addEventListener('click', function () {
     });
     chartSubs.render();
 
+    // Create pie chart
 
     // Count the number of channels for each country
     const countryCounts = originalData.reduce((counts, row) => {
@@ -120,7 +123,28 @@ document.getElementById('graphs-tab').addEventListener('click', function () {
 
     chartCountry.render();
 
+    // Create the line chart
+    const graphDataSubscribersLine = originalData.map((row, index) => ({
+        x: index + 1, // or any other value
+        y: row['Subscribers (millions)'],
+        label: row.Name
+    }));
+    const chartSubsLine = new CanvasJS.Chart("line-chart-container", {
+        animationEnabled: true,
+        exportEnabled: true,
+        title: {
+            text: "Top 50 YouTube Channels by Subscribers"
+        },
+        axisY: {
+            title: "Subscribers (millions)"
+        },
+        data: [{
+            type: "line",
+            dataPoints: graphDataSubscribersLine
+        }]
+    });
 
+    chartSubsLine.render();
 
 });
 
