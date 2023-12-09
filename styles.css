@@ -134,6 +134,7 @@ tr:hover {
 /* graph sizing */
 #graphs-container-sub,
 #graph-container-country,
+#scatter-chart-containe,
 #line-chart-container {
     width: 100%;
     height: 500px;
@@ -147,6 +148,7 @@ tr:hover {
 
 #graphs-container-sub, 
 #graph-container-country, 
+#scatter-chart-container,
 #line-chart-container {
     flex: 1;
     margin: 10px;

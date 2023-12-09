@@ -70,7 +70,7 @@ document.getElementById('graphs-tab').addEventListener('click', function () {
     graphsContainerSub.style.display = 'block'; // or 'flex'
 
     // Create bar chart
-    
+
     // Get the data for the graph
     const graphDataSubscribers = originalData.map((row, index) => ({
         x: index + 1, // or any other value
@@ -145,6 +145,32 @@ document.getElementById('graphs-tab').addEventListener('click', function () {
     });
 
     chartSubsLine.render();
+
+
+    //scatter/bubble chart
+
+
+    const graphDataSubscribersBubble = originalData.map((row, index) => ({
+        x: index + 1, // or any other value
+        y: row['Subscribers (millions)'],
+        label: row.Name
+    }));
+    const chartSubsBubble = new CanvasJS.Chart("scatter-chart-container", {
+        animationEnabled: true,
+        exportEnabled: true,
+        title: {
+            text: "Top 50 YouTube Channels by Subscribers"
+        },
+        axisY: {
+            title: "Subscribers (millions)"
+        },
+        data: [{
+            type: "bubble",
+            dataPoints: graphDataSubscribersBubble
+        }]
+    });
+
+    chartSubsBubble.render();
 
 });
 
