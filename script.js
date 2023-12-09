@@ -66,8 +66,12 @@ document.getElementById('graphs-tab').addEventListener('click', function () {
     // Show the graph containers
     var graphContainerCountry = document.getElementById('graph-container-country');
     var graphsContainerSub = document.getElementById('graphs-container-sub');
-    graphContainerCountry.style.display = 'block'; // or 'flex'
-    graphsContainerSub.style.display = 'block'; // or 'flex'
+    var lineChartContainer = document.getElementById('line-chart-container');
+    var scatterChartContainer = document.getElementById('scatter-chart-container');
+    graphContainerCountry.style.display = 'block';
+    graphsContainerSub.style.display = 'block'; 
+    lineChartContainer.style.display = 'block'; 
+    scatterChartContainer.style.display = 'block';
 
     // Create bar chart
 
@@ -186,12 +190,20 @@ document.getElementById('table-tab').addEventListener('click', function () {
     document.getElementById('data-table').style.display = '';
     document.getElementById('graph-container-country').style.display = 'none';
     document.getElementById('graphs-container-sub').style.display = 'none';
+    document.getElementById('line-chart-container').style.display = 'none';
+    document.getElementById('scatter-chart-container').style.display = 'none';
     // Destroy the charts
     if (chartCountry) {
         chartCountry.destroy();
     }
     if (chartSubs) {
         chartSubs.destroy();
+    }
+    if (chartSubsLine) {
+        chartSubsLine.destroy();
+    }
+    if (chartSubsBubble) {
+        chartSubsBubble.destroy();
     }
 });
 
@@ -200,4 +212,6 @@ document.getElementById('table-tab').addEventListener('click', function () {
 window.onload = function () {
     document.getElementById('graph-container-country').style.display = 'none';
     document.getElementById('graphs-container-sub').style.display = 'none';
+    document.getElementById('line-chart-container').style.display = 'none';
+    document.getElementById('scatter-chart-container').style.display = 'none';
 };
